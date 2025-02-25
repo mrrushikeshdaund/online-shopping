@@ -1,0 +1,24 @@
+.header-section {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.search-box {
+    padding: 10px;
+    width: 60%;
+    height: 10%;
+}
+
+.login-btn {
+    padding: 10px;
+}
