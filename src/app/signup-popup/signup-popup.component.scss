@@ -1,0 +1,31 @@
+.main-section {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.header-txt {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ipt-width {
+  width: 100%;
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ipt-field {
+  padding-bottom: 20px;
+}
+
+.sub-txt {
+  text-align: center;
+  cursor: pointer;
+  color: blue;
+}

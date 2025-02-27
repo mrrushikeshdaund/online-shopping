@@ -1,0 +1,39 @@
+<mat-dialog-content class="main-section">
+  <div class="header-txt">Welcome to Online Shopping</div>
+  <div>
+    <mat-form-field appearance="outline" class="ipt-width">
+      <mat-label>Name</mat-label>
+      <input
+        matInput
+        type="text"
+        placeholder="Enter Name"
+        [(ngModel)]="nametxt"
+      />
+      <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="ipt-width">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="example@me.com" [(ngModel)]="emailtxt" />
+      <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="ipt-width">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        type="password"
+        placeholder="Enter Password"
+        [(ngModel)]="passwordtxt"
+      />
+      <mat-icon matSuffix>lock</mat-icon>
+    </mat-form-field>
+  </div>
+  <div class="sub-txt" mat-dialog-close>
+    If User Already Created then (Sign In)
+  </div>
+  <div class="action-btn">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button cdkFocusInitial (click)="handleSignUpAction()">
+      SignUp
+    </button>
+  </div>
+</mat-dialog-content>
